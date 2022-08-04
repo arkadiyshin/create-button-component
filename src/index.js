@@ -58,7 +58,7 @@ class Button extends React.Component {
     this.timerId = setInterval(() => {
         this.setState({timerValue: this.state.timerValue + 1});
         this.title = this.getButtonTitle();
-    }, 1000);
+    }, 500);
 
   }
 
